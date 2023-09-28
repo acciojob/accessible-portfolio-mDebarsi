@@ -7,30 +7,33 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<h1>DOGS</h1>
-	
-	<nav class="nav-1">
-		<a class="nav-2"href="#">Home</a>  
-		<a class="nav-2" href="#">About Us</a>
-		<a class="nav-2" href="#">Contact</a>
-		
-	</nav>
-		
-	<img  id="img-1"src="https://images.unsplash.com/photo-1596854696004-5c27428c34b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1297&q=80" alt="bulldog">
-	
-	
-		<h2>brief description</h2>
-		<p>The Bulldog is a British breed of dog of mastiff type. It may also be known as the English Bulldog or British Bulldog. It is a medium-sized, muscular dog of around 40–55 lb (18–25 kg). They have large heads with thick folds of skin around the face and shoulders, and a relatively flat face with a protruding lower jaw. The breed has significant health issues as a consequence of breeding for its distinctive appearance, including brachycephalia, hip dysplasia, heat sensitivity, and skin infections. Due to concerns about their quality of life, breeding Bulldogs is illegal in Norway and the Netherlands.
+	<!-- Heading with ARIA role "heading" -->
+        <h1 aria-level="1">My Accessible Portfolio</h1>
 
-The modern Bulldog was bred as a companion dog from the Old English Bulldog, a now-extinct breed used for bull-baiting, when the sport was outlawed in England under the Cruelty to Animals Act. The Bulldog Club (In England) was formed in 1878, and the Bulldog Club of America was formed in 1890. While often used as a symbol of ferocity and courage, modern Bulldogs are generally friendly, amiable dogs. Bulldogs are now commonly kept as pets; in 2013 it was in twelfth place on a list of the breeds most frequently registered worldwide.</p>
+        <!-- Navigation with ARIA role "navigation" -->
+        <nav aria-label="Portfolio Navigation">
+            <ul role="list">
+                <li role="listitem"><a href="#">Home</a></li>
+                <li role="listitem"><a href="#">Projects</a></li>
+                <li role="listitem"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<ul>
-		<li>item 1</li>
-		<li>itme 2</li>
-		<li>itme 3</li>
-	</ul>
-	
+    <main>
+        <!-- Image with ARIA role "img" and alt attribute -->
+        <img src="https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900" alt="image">
+
+        <!-- Brief description -->
+        <p>Welcome to my accessible portfolio. Here you can explore my projects and get in touch with me.</p>
+
+        <!-- List with ARIA role "list" and list items with ARIA role "listitem" -->
+        <ul role="list">
+            <li role="listitem">Project 1: Web Accessibility</li>
+            <li role="listitem">Project 2: Responsive Design</li>
+            <li role="listitem">Project 3: HTML5 and ARIA</li>
+        </ul>
+    </main>
     <script type="text/javascript" src="./script.js">
 </script>
 
